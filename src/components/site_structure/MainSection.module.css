@@ -1,0 +1,95 @@
+.main {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.sliderContainer {
+    width: 100%;
+    max-width: 1200px; /* Set max-width for the slider */
+    margin: 0 auto; /* Center the slider */
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the images */
+    max-height: 500px; /* Ensure images are of a similar height */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+.slide h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #007BFF, #800080);
+    color: #fff;
+}
+
+.platformGoal {
+    background-color: #f9f9f9;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.platformGoal h2 {
+    font-size: 32px;
+    margin: 10px 10px;
+}
+
+.platformGoal p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.gradientText {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #007BFF, #800080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fond {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+.agitation{
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}

@@ -1,0 +1,48 @@
+/* Відключення горизонтальної прокрутки */
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.message {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Додаємо простір між кнопками */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.authButton {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.authButton:hover {
+    background-color: #0056b3;
+}
+
+.homeButton {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.homeButton:hover {
+    background-color: #5a6268;
+}

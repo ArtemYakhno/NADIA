@@ -1,0 +1,117 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.nameRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.fullName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 10px; /* Add space between input groups */
+}
+
+.inputGroup {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.inputGroup:last-child {
+    margin-right: 0;
+}
+
+.inputGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Додавання відступів між інпут полями */
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button, .buttonRight {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover, .buttonRight:hover {
+    background-color: #0056b3;
+}
+
+.backButton {
+    background-color: #6c757d;
+}
+
+.backButton:hover {
+    background-color: #5a6268;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+.modalInput {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modalButtonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add space between buttons */
+    margin-top: 10px;
+}

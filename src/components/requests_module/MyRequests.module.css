@@ -1,0 +1,106 @@
+.requestsContainer {
+    display: flex;
+    justify-content: space-between; /* To place the sections side by side */
+    gap: 40px;
+    padding: 20px;
+}
+
+.requestSection {
+    flex: 1;
+}
+
+.centeredHeader {
+    text-align: center;
+}
+
+.requestItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.requestItem:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+.requestItem p {
+    margin: 0;
+    flex: 1;
+}
+
+.requestItem button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #007BFF; /* Blue color for "Змінити дані" */
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.disabledButton {
+    background-color: #6c757d; /* Grey color for disabled button */
+    cursor: not-allowed;
+}
+
+.disabledButton:hover {
+    background-color: #6c757d; /* Remove hover effect for disabled button */
+}
+
+.deleteButton {
+    background-color: #dc3545; /* Red color for "Видалити" */
+    color: #fff;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+}
+
+.blocked {
+    color: #dc3545; /* Red color for blocked status */
+}
+
+.accepted {
+    color: #007BFF; /* Blue color for accepted status */
+}
+
+.waiting {
+    color: #6f42c1; /* Purple color for waiting accept status */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pageLink {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pageLink:hover {
+    background-color: #007BFF;
+    color: #fff;
+}

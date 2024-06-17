@@ -1,0 +1,132 @@
+.container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.requestItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.requestItem:hover {
+    transform: scale(1.05);
+    background-color: #e0e0e0;
+}
+
+.infoContainer {
+    flex: 1;
+}
+
+.textarea {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.viewButton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.viewButton:hover {
+    background-color: #0056b3;
+}
+
+.blockButton {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blockButton:hover {
+    background-color: #c82333;
+}
+
+.acceptButton {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.acceptButton:hover {
+    background-color: #5a33a2;
+}
+
+.success {
+    color: green;
+}
+
+.failure {
+    color: red;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pageLink, .activePage {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pageLink {
+    background-color: #fff;
+    color: #007BFF;
+}
+
+.pageLink:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.activePage {
+    background-color: #007BFF;
+    color: #fff;
+}

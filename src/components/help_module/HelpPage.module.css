@@ -1,0 +1,53 @@
+.helpPage {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.filtersSection {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 0px;
+}
+
+.resultsSection {
+    flex: 3;
+}
+
+.helpCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.noResults {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.pageLink {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pageLink:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
